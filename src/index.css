@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  overflow-x: hidden !important;
+}
+#root {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(black, #232323 80%);
+
+}
+
+body {
+  margin: 0;
+}
+
+.outline-text {
+  -webkit-text-stroke: 1px white;
+}
